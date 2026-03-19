@@ -8,8 +8,8 @@ A full-stack MERN application that allows users to browse dentists, book appoint
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/DentalApp.git
-cd DentalApp
+git clone https://github.com/Mohammad-Ikhlas-khan/DentalApp
+cd dentist-appointment
 ```
 
 ### 2. Setup Backend
