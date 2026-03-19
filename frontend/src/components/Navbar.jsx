@@ -6,10 +6,12 @@ import { useNavigate } from 'react-router-dom';
 
 function Navbar() {
     const { user } = useContext(AuthContext);
+    const { setUser } = useContext(AuthContext);
     const navigate = useNavigate();
 
     const logoutHandler = () => {
         localStorage.removeItem("token");
+        setUser(null);
         navigate("/login");
     }
   
