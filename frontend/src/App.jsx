@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Routes, Route} from 'react-router-dom'
 import { Link } from 'react-router-dom'
-import UserView from './pages/userView'
+import UserView from './pages/UserView'
 import Form from './components/Form'
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
